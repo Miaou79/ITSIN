@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.tennis-ball {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.three-barres {
+    position: absolute;
+    top: 1Opx; 
+    right: 10px;
+    width: 100px;
+    height: auto;
+    background-color: black;
+}
+
+.banner {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.banner h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: perspective(100px) rotateX(15deg);
+    display: inline-block;
+    margin: 0;
+    border-bottom: 1px solid white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.single-box-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: orange;
+    border: 2px solid white;
+    width: 45%;
+    padding: 2em;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+}
+
+.single-box-container .box {
+    width: 30%;
+}
+
+.box p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.single-box-container .box p {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+#table-container {
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid orange;
+    box-shadow: 5px 5px 15px rgba(255, 145, 0, 0.5);
+}
+
+#image-container {
+    margin-top: 1em;
+}
+
+#table-container p{
+    font-size: 1.5em;
+}
+
+.hidden {
+    display: none;
+}
